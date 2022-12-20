@@ -17,8 +17,7 @@ public class KetchupUi : MonoBehaviour
     public void UpdateKetchupText(KetchupCollect ketchupCollect) 
     
     {
-        
         ketchupText.text=ketchupCollect.numOfKetchup.ToString();
-      
+     
     }
 }

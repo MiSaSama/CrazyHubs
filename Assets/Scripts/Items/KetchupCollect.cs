@@ -13,7 +13,11 @@ public class KetchupCollect : MonoBehaviour
     public void Ketchup()
     {
         collection2SoundsEffect.Play();
+       
+        if (numOfKetchup <= 3) 
+        { 
          numOfKetchup++;
+        }
          OnKetchupCollected.Invoke(this);
         
                  
