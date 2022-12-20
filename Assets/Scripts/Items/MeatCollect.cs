@@ -6,10 +6,14 @@ public class MeatCollect : MonoBehaviour
 {
     public int numOfMeat{ get; private set; }
     public UnityEvent<MeatCollect> OnMeatCollected;
+    [SerializeField] private AudioSource collection1SoundsEffect;
+
     public void Meat()
 
-    { numOfMeat++;
-      OnMeatCollected.Invoke(this);
+    {
+        collection1SoundsEffect.Play();
+        numOfMeat++;
+        OnMeatCollected.Invoke(this);
 
     }
 }

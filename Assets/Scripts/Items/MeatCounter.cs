@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MeatCounter : MonoBehaviour
 {
+
     private void OnTriggerEnter(Collider other)
     {
 
