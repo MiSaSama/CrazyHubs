@@ -10,8 +10,7 @@ public class PlayerMenager : MonoBehaviour
     private Vector3 startMousePos, startPlayerPos;
     private bool moveThePlayer;
     // [Range(0f,1f)] public float maxSpeed;
-    private float velocity, camVelocity;
-    private Camera mainCam;
+    private float velocity;
     private float maxSpeed;
     public GameObject MainMenu;
 
@@ -19,7 +18,6 @@ public class PlayerMenager : MonoBehaviour
     void Start()
     {
         Player2 = transform;
-        mainCam = Camera.main;
         maxSpeed = 0.05f;
 
 
@@ -74,11 +72,5 @@ public class PlayerMenager : MonoBehaviour
     }
 
 
-    //private void LateUpdate()
-    //{
-    //    var CameraNewPos = mainCam.transform.position;
-
-    //    mainCam.transform.position = new Vector3(Mathf.SmoothDamp(CameraNewPos.x, Player2.transform.position.x, ref camVelocity, camSpeed), CameraNewPos.y, CameraNewPos.z);
-
-    //}
+   
 }
