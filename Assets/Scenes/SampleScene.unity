@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.86274517, g: 0.9215687, b: 0.9490197, a: 1}
-    m_HighlightedColor: {r: 0.8980392, g: 0.6862745, b: 0.14901961, a: 1}
+    m_HighlightedColor: {r: 0.24313727, g: 0.4039216, b: 0.5411765, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1066,9 +1066,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 237951978}
-        m_TargetAssemblyTypeName: MenuMenager, Assembly-CSharp
-        m_MethodName: OpenPanel
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: OptionsMenager, Assembly-CSharp
+        m_MethodName: ShowOptionsMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3545,7 +3545,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.86274517, g: 0.9215687, b: 0.9490197, a: 1}
-    m_HighlightedColor: {r: 0.8980392, g: 0.6862745, b: 0.14901961, a: 1}
+    m_HighlightedColor: {r: 0.2392157, g: 0.39607847, b: 0.5294118, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -6101,7 +6101,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.86274517, g: 0.9215687, b: 0.9490197, a: 1}
-    m_HighlightedColor: {r: 0.8980392, g: 0.6862745, b: 0.14901961, a: 1}
+    m_HighlightedColor: {r: 0.2392157, g: 0.39607847, b: 0.53333336, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
