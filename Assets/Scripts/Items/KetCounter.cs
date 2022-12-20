@@ -7,7 +7,7 @@ public class KetCounter : MonoBehaviour
 {
 
    
-         
+
     private void OnTriggerEnter(Collider other)
     {
 

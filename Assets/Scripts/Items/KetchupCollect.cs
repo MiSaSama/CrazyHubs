@@ -9,6 +9,7 @@ public class KetchupCollect : MonoBehaviour
     public UnityEvent<KetchupCollect> OnKetchupCollected;
     [SerializeField] private AudioSource collection2SoundsEffect;
 
+    
     public void Ketchup()
     {
         collection2SoundsEffect.Play();

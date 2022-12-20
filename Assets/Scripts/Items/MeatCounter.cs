@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MeatCounter : MonoBehaviour
 {
-
+    public void Update()
+    {
+        transform.Rotate( 0, 20 * Time.deltaTime, 0);
+    }
     private void OnTriggerEnter(Collider other)
     {
 
