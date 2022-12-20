@@ -16,11 +16,7 @@ public class CameraToggler : MonoBehaviour
         setCam(currentCam);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+  
 
     public void setCam(int idx)
     {
